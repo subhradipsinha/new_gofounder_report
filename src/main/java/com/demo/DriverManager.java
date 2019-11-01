@@ -19,7 +19,7 @@ public class  DriverManager {
 
 //            WebElement frm = driver.findElement(By.xpath("//iframe[@tabindex='0']"));
 //    driver.switchTo().frame(frm); using Frame
-            System.setProperty("webdriver.gecko.driver", "C:\\Users\\admin\\Desktop\\demogofoundernet\\Driver\\geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", "C:\\Users\\admin\\Desktop\\Sw\\demogofoundernet\\Driver\\geckodriver.exe");
             driver = new FirefoxDriver();
             driver.manage().window().maximize();
         }
