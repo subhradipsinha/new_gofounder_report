@@ -23,6 +23,7 @@ public class Login extends TestBase {
     public void uname() throws Exception {
         TestBase.byXpath("USerName").sendKeys(TestData.getProperty("uname"));
         Thread.sleep(4000);
+        System.out.println("uname()");
     }
 
     // correct Password
@@ -30,21 +31,14 @@ public class Login extends TestBase {
 
         TestBase.byXpath("Password").sendKeys(TestData.getProperty("pass1"));
         Thread.sleep(4000);
+        System.out.println("pass()");
     }
 
     // Corrent LoginButtom
     public void log() throws Exception {
         TestBase.byXpath("Log").click();
+        System.out.println("log()");
         Thread.sleep(4000);
-
-        String accul_error = TestData.getProperty("UserNamewrong");
-        String expec_error = TestData.getProperty("LoginnotSuccessful");
-        SoftAssert softAssertion = new SoftAssert();
-
-        System.out.println("softAssert Method Was Started");
-        softAssertion.assertEquals(accul_error,expec_error);
-        System.out.println("softAssert Method Was Executed");
-        softAssertion.assertAll();
 
         driver.navigate().refresh();
 
@@ -57,6 +51,7 @@ public class Login extends TestBase {
     // Double UserName
     public void uname1() throws Exception {
         TestBase.byXpath("USerName").sendKeys(TestData.getProperty("unameuname"));
+        System.out.println("uname1()");
         Thread.sleep(4000);
     }
     //correct Password
@@ -64,6 +59,7 @@ public class Login extends TestBase {
     {
 
         TestBase.byXpath("Password").sendKeys(TestData.getProperty("pass1"));
+        System.out.println("pass1()");
         Thread.sleep(4000);
     }
 
@@ -71,25 +67,15 @@ public class Login extends TestBase {
     public void log1()throws Exception
     {
         TestBase.byXpath("Log").click();
+        System.out.println("log1()");
         Thread.sleep(4000);
-
-
-        String accul_error1 = TestData.getProperty("UserNamewrong");
-        String expec_error1 = TestData.getProperty("LoginnotSuccessful");
-        SoftAssert softAssertion = new SoftAssert();
-
-        System.out.println("softAssert Method Was Started");
-        softAssertion.assertEquals(accul_error1,expec_error1);
-        System.out.println("softAssert Method Was Executed");
-        softAssertion.assertAll();
-
-        Thread.sleep(2000);
         driver.navigate().back();
         Thread.sleep(4000);
     }
 // Correct UserName
     public void uname2() throws Exception {
         TestBase.byXpath("USerName").sendKeys(TestData.getProperty("uname1"));
+        System.out.println("uname2()");
         Thread.sleep(4000);
     }
     //Blank Password
@@ -97,23 +83,15 @@ public class Login extends TestBase {
     {
 
         TestBase.byXpath("Password").sendKeys(TestData.getProperty("pass"));
+        System.out.println("pass2()");
         Thread.sleep(4000);
     }
     //Corrent LoginButtom
     public void log2()throws Exception
     {
         TestBase.byXpath("Log").click();
+        System.out.println("log2()");
         Thread.sleep(4000);
-
-
-        String accul_error2 = TestData.getProperty("Passwordwrong");
-        String expec_error2 = TestData.getProperty("LoginnotSuccessful");
-        SoftAssert softAssertion = new SoftAssert();
-
-        System.out.println("softAssert Method Was Started");
-        softAssertion.assertEquals(accul_error2,expec_error2);
-        System.out.println("softAssert Method Was Executed");
-        softAssertion.assertAll();
         driver.navigate().refresh();
 
         Thread.sleep(2000);
@@ -123,6 +101,7 @@ public class Login extends TestBase {
     // Correct UserName
     public void uname3() throws Exception {
         TestBase.byXpath("USerName").sendKeys(TestData.getProperty("uname1"));
+        System.out.println("uname3()");
         Thread.sleep(4000);
     }
     //Double Password
@@ -130,6 +109,7 @@ public class Login extends TestBase {
     {
 
         TestBase.byXpath("Password").sendKeys(TestData.getProperty("passpass"));
+        System.out.println("pass3()");
         Thread.sleep(4000);
     }
 
@@ -137,17 +117,8 @@ public class Login extends TestBase {
     public void log3()throws Exception
     {
         TestBase.byXpath("Log").click();
+        System.out.println("log3()");
         Thread.sleep(4000);
-
-        String accul_error3 = TestData.getProperty("Passwordwrong");
-        String expec_error3 = TestData.getProperty("LoginnotSuccessful");
-        SoftAssert softAssertion = new SoftAssert();
-
-        System.out.println("softAssert Method Was Started");
-        softAssertion.assertEquals(accul_error3,expec_error3);
-        System.out.println("softAssert Method Was Executed");
-        softAssertion.assertAll();
-        Thread.sleep(2000);
         driver.navigate().back();
         Thread.sleep(4000);
 
@@ -158,6 +129,7 @@ public class Login extends TestBase {
     // Correct UserName
     public void uname4() throws Exception {
         TestBase.byXpath("USerName").sendKeys(TestData.getProperty("uname1"));
+        System.out.println("uname4()");
         Thread.sleep(4000);
     }
     //Correct Password
@@ -165,6 +137,7 @@ public class Login extends TestBase {
     {
 
         TestBase.byXpath("Password").sendKeys(TestData.getProperty("pass1"));
+        System.out.println("pass4()");
         Thread.sleep(4000);
     }
 
@@ -172,6 +145,7 @@ public class Login extends TestBase {
     public void log4()throws Exception
     {
         TestBase.byXpath("Log").click();
+        System.out.println("log4()");
         Thread.sleep(4000);
 
 
