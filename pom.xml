@@ -17,13 +17,6 @@
             <version>3.141.59</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.github.nisrulz/screenshott -->
-        <dependency>
-            <groupId>com.github.nisrulz</groupId>
-            <artifactId>screenshott</artifactId>
-            <version>1.0.1</version>
-        </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.bytedeco.javacpp-presets/tesseract -->
         <dependency>
             <groupId>org.bytedeco.javacpp-presets</groupId>
