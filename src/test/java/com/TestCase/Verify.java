@@ -27,6 +27,20 @@ public class Verify {
 
         text.init();
         text.uname();
+        text.uname1();
+        text.uname2();
+        text.uname3();
+        text.uname4();
+        text.pass();
+        text.pass1();
+        text.pass2();
+        text.pass3();
+        text.pass4();
+        text.log1();
+        text.log2();
+        text.log3();
+        text.log4();
+
 
 
 
