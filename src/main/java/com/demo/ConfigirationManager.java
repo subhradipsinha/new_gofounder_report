@@ -26,21 +26,21 @@ public class ConfigirationManager {
     public static void conficfile() throws IOException {
 
         //Read confic file
-        File con = new File("E:\\sw\\Homework1\\demogofoundernet\\src\\main\\resources\\Config.properties");
+        File con = new File("C:\\Users\\admin\\Desktop\\demogofoundernet\\src\\main\\resources\\Config.properties");
         FileInputStream file = new FileInputStream(con);
         config = new Properties();
         config.load(file);
         System.out.println(config.getProperty("browser"));
 
         //Read OR file
-        File con1 = new File("E:\\sw\\Homework1\\demogofoundernet\\src\\main\\resources\\OR.properties");
+        File con1 = new File("C:\\Users\\admin\\Desktop\\demogofoundernet\\src\\main\\resources\\OR.properties");
         FileInputStream file1 = new FileInputStream(con1);
         OR = new Properties();
         OR.load(file1);
         System.out.println(OR.getProperty("username"));
 
         //Read TestData file
-        File con2 = new File("E:\\sw\\Homework1\\demogofoundernet\\src\\main\\resources\\TestData.properties");
+        File con2 = new File("C:\\Users\\admin\\Desktop\\demogofoundernet\\src\\main\\resources\\TestData.properties");
         FileInputStream file2 = new FileInputStream(con2);
         TestData = new Properties();
         TestData.load(file2);

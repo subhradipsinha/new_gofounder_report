@@ -19,27 +19,15 @@ public class Verify {
     public static Downloads downloads = new Downloads();
     public static Tutorials tutorials = new Tutorials();
     public static Faqs faqs = new Faqs();
+    public static LoginIDText loginIDText = new LoginIDText();
 
 
     @Test
     public void verifyValidLogin() throws Exception {
+
         text.init();
         text.uname();
-        text.pass();
-        text.log();
-        dash.announcements();
-        pf.Profile();
-        accounce.annount();
-        com.Communi();
-        web.webinar();
-        myInvitations.MYINVITATIONS();
-        myInvitation.Invitation();
-        myTeam.myTeamtext();
-        mylinks.linkText();
-        mar.mark();
-        downloads.Downloadstest();
-        tutorials.tutorialsButton();
-        faqs.Faqstext();
+
 
 
     }

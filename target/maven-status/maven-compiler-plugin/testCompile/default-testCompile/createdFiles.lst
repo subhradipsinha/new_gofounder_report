@@ -1,0 +1,16 @@
+com\PageObject\MyInvitations.class
+com\PageObject\Downloads$Announcements.class
+com\PageObject\Webinars.class
+com\PageObject\MyInvitation.class
+com\PageObject\Mylinks.class
+com\PageObject\Tutorials.class
+com\PageObject\MyTeam.class
+com\PageObject\Announcements.class
+com\PageObject\Downloads.class
+com\PageObject\Faqs.class
+com\PageObject\Marketing.class
+com\PageObject\Dashbord.class
+com\TestCase\Verify.class
+com\PageObject\ProfileClick.class
+com\PageObject\Community.class
+com\PageObject\Login.class
