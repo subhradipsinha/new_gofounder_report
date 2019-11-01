@@ -31,6 +31,12 @@
             <version>4.0.0-1.4.4</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.coravy.hudson.plugins.github/github -->
+        <dependency>
+            <groupId>com.coravy.hudson.plugins.github</groupId>
+            <artifactId>github</artifactId>
+            <version>0.2</version>
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>

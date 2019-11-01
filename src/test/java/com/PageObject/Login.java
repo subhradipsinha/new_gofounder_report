@@ -46,8 +46,6 @@ public class Login extends TestBase {
 
     }
 
-
-
     // Double UserName
     public void uname1() throws Exception {
         TestBase.byXpath("USerName").sendKeys(TestData.getProperty("unameuname"));
@@ -121,9 +119,6 @@ public class Login extends TestBase {
         Thread.sleep(4000);
         driver.navigate().back();
         Thread.sleep(4000);
-
-
-
     }
 
     // Correct UserName
