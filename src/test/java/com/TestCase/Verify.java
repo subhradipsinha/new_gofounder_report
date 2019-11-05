@@ -26,10 +26,7 @@ public class Verify {
     public void verifyValidLogin() throws Exception {
 
         text.init();
-        text.uname();
-        text.uname1();
-        text.uname2();
-        text.uname3();
+        
         text.uname4();
         text.pass();
         text.pass1();
